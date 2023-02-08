@@ -1,0 +1,9 @@
+CXX = g++
+CXXFLAGS = -Wall
+PROJ = snake
+OBJS = main.o model.o view.o controllers.o
+
+$(PROJ): $(OBJS)
+	$(CXX) $(OBJS) -o $(PROJ)	
+clean:
+	rm $(PROJ) $(OBJS)

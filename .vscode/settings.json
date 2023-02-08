@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "fcntl.h": "c",
+        "stdio.h": "c",
+        "to_give_a_massive_of_char_from_file.h": "c",
+        "cword.h": "c"
+    }
+}

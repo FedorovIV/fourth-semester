@@ -1,0 +1,2 @@
+all:
+	gcc cword.h cword.c check_my_functions.c -o test

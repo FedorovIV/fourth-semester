@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -Wall
 PROJ = snake
-OBJS = main.o model.o view.o controllers.o
+OBJS = main.o GuiVi.o TextVi.o view.o
 
 $(PROJ): $(OBJS)
 	$(CXX) $(OBJS) -o $(PROJ)	
